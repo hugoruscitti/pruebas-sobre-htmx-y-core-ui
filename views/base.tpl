@@ -6,6 +6,8 @@
 
     <link href="/static/css/coreui.min.css" rel="stylesheet" integrity="" crossorigin="anonymous">
     <script src="/static/js/coreui.bundle.min.js" integrity="" crossorigin="anonymous"></script>
+    <script src="/static/htmx.min.js" integrity="" crossorigin="anonymous"></script>
+    <script src="/static/app.js" integrity="" crossorigin="anonymous"></script>
 
     <title>{{title or 'No title'}}</title>
   </head>
