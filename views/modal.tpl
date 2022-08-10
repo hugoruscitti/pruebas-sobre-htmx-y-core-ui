@@ -1,4 +1,4 @@
-% rebase('base.tpl', title='Cards')
+% rebase('base.tpl', title='Diálogos modales')
 
 <p>
   <button hx-get="/contenido-modal" hx-target="#modal">Abrir</button>
