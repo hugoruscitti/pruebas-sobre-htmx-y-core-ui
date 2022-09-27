@@ -46,6 +46,17 @@ def agregar():
     global lista_de_numeros
 
     lista_de_numeros.append(str(random.randint(1000, 2000)))
-    return template('post-agregar', lista_de_numeros=lista_de_numeros, cantidad=len(lista_de_numeros))
+    return template('post-agregar', 
+            lista_de_numeros=lista_de_numeros,
+            cantidad=len(lista_de_numeros))
+
+@route('/widget-fechas')
+def widget_de_fechas():
+    return template('widget-de-fechas')
+
+@route("/agregar-fecha")
+def agregar_una_fecha():
+    return template('agregar-fecha')
+
 
 run(host='localhost', debug=True, reloader=True, port=8080)

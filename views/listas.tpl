@@ -4,11 +4,10 @@
   <button hx-get="/agregar" hx-target="#lista">Agregar un elemento al azar</button>
 </p>
 
-<div class="card">
-  Resumen: hay {{cantidad}} Elementos en la lista.
+j h
 </div>
 
-<div id="lista">
+<div id="lista" class="ba b--green pa2">
 
   <ul>
     % for item in lista_de_numeros:
